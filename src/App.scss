@@ -1,0 +1,17 @@
+body {
+  background-color: #202020;
+}
+
+.app-wrapper {
+  display: grid;
+
+  grid-template-areas:
+  "header header"
+  "nav content";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+
+  margin: 0 auto;
+  max-width: 1000px;
+}
