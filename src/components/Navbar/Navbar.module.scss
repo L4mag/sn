@@ -1,0 +1,30 @@
+.nav {
+  grid-area: nav;
+
+  display: flex;
+  flex-direction: column;
+
+  line-height: 2em;
+
+  a {
+    text-decoration: none;
+    color: #aaaaaa;
+  }
+
+  .item {
+    display: block;
+
+    margin: 0 10px 10px;
+    padding: 10px;
+
+    border-radius: 4px;
+  }
+
+  .item:hover,
+  .item:focus {
+    background-color: rgba(104, 213, 231, 0.8);
+    color: #353535;
+
+    outline: none;
+  }
+}

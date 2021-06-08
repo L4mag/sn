@@ -1,0 +1,39 @@
+.content {
+  grid-area: content;
+
+  background-color: #353535;
+  color: #aaaaaa;
+
+  padding: 20px;
+
+  border-radius: 3px;
+
+  img {
+    height: 200px;
+    width: 100%;
+
+    border-radius: 4px;
+
+    object-fit: cover;
+  }
+
+  .about {
+    display: flex;
+
+    .avatar img {
+      object-fit: cover;
+      height: 100px;
+      width: 100px;
+
+      border-radius: 50px;
+
+      margin-right: 20px;
+      margin-top: 20px;
+    }
+
+    .status,
+    .information {
+      display: block;
+    }
+  }
+}
